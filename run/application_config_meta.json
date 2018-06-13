@@ -1,0 +1,288 @@
+{
+  "keys": "/Users/apple/Documents/practice/egg-example/config/config.default.js",
+  "middleware": "/Users/apple/Documents/practice/egg-example/config/config.default.js",
+  "view": {
+    "defaultViewEngine": "/Users/apple/Documents/practice/egg-example/config/config.default.js",
+    "mapping": {
+      ".ejs": "/Users/apple/Documents/practice/egg-example/config/config.default.js"
+    },
+    "root": "/Users/apple/Documents/practice/egg-example/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/apple/Documents/practice/egg-example/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/apple/Documents/practice/egg-example/node_modules/egg-view/config/config.default.js"
+  },
+  "news": {
+    "pageSize": "/Users/apple/Documents/practice/egg-example/config/config.default.js",
+    "serverUrl": "/Users/apple/Documents/practice/egg-example/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/apple/Documents/practice/egg-example/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/apple/Documents/practice/egg-example/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/apple/Documents/practice/egg-example/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/apple/Documents/practice/egg-example/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/apple/Documents/practice/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/apple/Documents/practice/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/apple/Documents/practice/egg-example/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/apple/Documents/practice/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/apple/Documents/practice/egg-example/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/apple/Documents/practice/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/apple/Documents/practice/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/apple/Documents/practice/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/apple/Documents/practice/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/apple/Documents/practice/egg-example/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/apple/Documents/practice/egg-example/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/apple/Documents/practice/egg-example/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/apple/Documents/practice/egg-example/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/apple/Documents/practice/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/apple/Documents/practice/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/apple/Documents/practice/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/apple/Documents/practice/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/apple/Documents/practice/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/apple/Documents/practice/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/apple/Documents/practice/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/apple/Documents/practice/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/apple/Documents/practice/egg-example/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/apple/Documents/practice/egg-example/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/apple/Documents/practice/egg-example/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/apple/Documents/practice/egg-example/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/apple/Documents/practice/egg-example/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/apple/Documents/practice/egg-example/node_modules/egg-development/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/apple/Documents/practice/egg-example/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/apple/Documents/practice/egg-example/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/apple/Documents/practice/egg-example/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/apple/Documents/practice/egg-example/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/apple/Documents/practice/egg-example/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/apple/Documents/practice/egg-example/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/apple/Documents/practice/egg-example/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/apple/Documents/practice/egg-example/node_modules/egg-static/config/config.default.js"
+  },
+  "ejs": {
+    "root": "/Users/apple/Documents/practice/egg-example/node_modules/egg-view-ejs/config/config.default.js",
+    "cache": "/Users/apple/Documents/practice/egg-example/node_modules/egg-view-ejs/config/config.local.js",
+    "debug": "/Users/apple/Documents/practice/egg-example/node_modules/egg-view-ejs/config/config.default.js",
+    "compileDebug": "/Users/apple/Documents/practice/egg-example/node_modules/egg-view-ejs/config/config.default.js",
+    "delimiter": "/Users/apple/Documents/practice/egg-example/node_modules/egg-view-ejs/config/config.default.js",
+    "strict": "/Users/apple/Documents/practice/egg-example/node_modules/egg-view-ejs/config/config.default.js"
+  },
+  "env": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+  "name": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "version": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "description": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "private": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "egg-view-ejs": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "stop": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "dev": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "debug": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "test": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "cov": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "lint": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "ci": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "autod": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "url": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "license": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "strict": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "depth": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "env": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "level": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "logging": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "port": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/config.default.js"
+}

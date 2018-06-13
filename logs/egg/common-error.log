@@ -1,0 +1,140 @@
+2018-06-12 15:35:54,781 ERROR 4400 [-/127.0.0.1/-/5ms GET /news] nodejs.ReferenceError: /Users/apple/Documents/practice/egg-example/app/view/news/home.ejs:11
+    9|     <li class="item">
+    10|         <a href="">
+ >> 11|             <%-item.title%>
+    12|         </a>
+    13|     </li>
+    14|     <%}%>
+
+item is not defined
+    9|     <li class="item">
+    10|         <a href="">
+ >> 11|             <%-item.title%>
+    12|         </a>
+    13|     </li>
+    14|     <%}%>
+
+item is not defined
+    at eval (eval at compile (/Users/apple/Documents/practice/egg-example/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:14:16)
+    at returnedFn (/Users/apple/Documents/practice/egg-example/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/apple/Documents/practice/egg-example/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/apple/Documents/practice/egg-example/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/apple/Documents/practice/egg-example/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/apple/Documents/practice/egg-example/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/apple/Documents/practice/egg-example/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/apple/Documents/practice/egg-example/node_modules/egg-view/lib/context_view.js:70:23)
+    at <anonymous>
+path: '/Users/apple/Documents/practice/egg-example/app/view/news/home.ejs'
+pid: 4400
+hostname: localhost
+
+2018-06-12 15:38:18,869 ERROR 4400 [-/127.0.0.1/-/0ms GET /news] nodejs.ReferenceError: /Users/apple/Documents/practice/egg-example/app/view/news/home.ejs:8
+    6| <body>
+    7| <ul class="news-view view">
+ >> 8|     <%for (var i = 0; i < dataList.list.length; i++){ %>
+    9|     <li class="item">
+    10|         <a href="">
+    11|             <%-dataList.list[i].title%>
+
+dataList is not defined
+    6| <body>
+    7| <ul class="news-view view">
+ >> 8|     <%for (var i = 0; i < dataList.list.length; i++){ %>
+    9|     <li class="item">
+    10|         <a href="">
+    11|             <%-dataList.list[i].title%>
+
+dataList is not defined
+    at eval (eval at compile (/Users/apple/Documents/practice/egg-example/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:11:27)
+    at returnedFn (/Users/apple/Documents/practice/egg-example/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/apple/Documents/practice/egg-example/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/apple/Documents/practice/egg-example/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/apple/Documents/practice/egg-example/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/apple/Documents/practice/egg-example/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/apple/Documents/practice/egg-example/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/apple/Documents/practice/egg-example/node_modules/egg-view/lib/context_view.js:70:23)
+    at <anonymous>
+path: '/Users/apple/Documents/practice/egg-example/app/view/news/home.ejs'
+pid: 4400
+hostname: localhost
+
+2018-06-12 15:38:20,409 ERROR 4400 [-/127.0.0.1/-/1ms GET /news] nodejs.ReferenceError: /Users/apple/Documents/practice/egg-example/app/view/news/home.ejs:8
+    6| <body>
+    7| <ul class="news-view view">
+ >> 8|     <%for (var i = 0; i < dataList.list.length; i++){ %>
+    9|     <li class="item">
+    10|         <a href="">
+    11|             <%-dataList.list[i].title%>
+
+dataList is not defined
+    6| <body>
+    7| <ul class="news-view view">
+ >> 8|     <%for (var i = 0; i < dataList.list.length; i++){ %>
+    9|     <li class="item">
+    10|         <a href="">
+    11|             <%-dataList.list[i].title%>
+
+dataList is not defined
+    at eval (eval at compile (/Users/apple/Documents/practice/egg-example/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:11:27)
+    at returnedFn (/Users/apple/Documents/practice/egg-example/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/Users/apple/Documents/practice/egg-example/node_modules/ejs/lib/ejs.js:251:36)
+    at Object.exports.renderFile (/Users/apple/Documents/practice/egg-example/node_modules/ejs/lib/ejs.js:482:10)
+    at Promise (/Users/apple/Documents/practice/egg-example/node_modules/egg-view-ejs/lib/view.js:16:11)
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/apple/Documents/practice/egg-example/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/apple/Documents/practice/egg-example/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/apple/Documents/practice/egg-example/node_modules/egg-view/lib/context_view.js:70:23)
+    at <anonymous>
+path: '/Users/apple/Documents/practice/egg-example/app/view/news/home.ejs'
+pid: 4400
+hostname: localhost
+
+2018-06-12 17:20:13,844 ERROR 4751 [-/127.0.0.1/-/6ms GET /news] nodejs.ReferenceError: ctx is not defined
+    at NewsController.list (/Users/apple/Documents/practice/egg-example/app/controller/news.js:6:22)
+    at Object.callFn (/Users/apple/Documents/practice/egg-example/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/practice/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/practice/egg-example/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/apple/Documents/practice/egg-example/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/apple/Documents/practice/egg-example/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/apple/Documents/practice/egg-example/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/apple/Documents/practice/egg-example/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/apple/Documents/practice/egg-example/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/apple/Documents/practice/egg-example/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 4751
+hostname: localhost
+
+2018-06-12 17:21:29,441 ERROR 4751 [-/127.0.0.1/-/1ms GET /news] nodejs.ReferenceError: ctx is not defined
+    at NewsController.list (/Users/apple/Documents/practice/egg-example/app/controller/news.js:6:22)
+    at Object.callFn (/Users/apple/Documents/practice/egg-example/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/apple/Documents/practice/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/apple/Documents/practice/egg-example/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/apple/Documents/practice/egg-example/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/apple/Documents/practice/egg-example/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/apple/Documents/practice/egg-example/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/apple/Documents/practice/egg-example/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/apple/Documents/practice/egg-example/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/apple/Documents/practice/egg-example/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 4751
+hostname: localhost
+
+2018-06-12 17:21:37,734 ERROR 4752 [-/127.0.0.1/-/5031ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories/json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/apple/Documents/practice/egg-example/node_modules/urllib/lib/urllib.js:801:15)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ConnectionTimeoutError'
+requestId: 1
+data: undefined
+path: '/v0/topstories/json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 5021, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories/json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+pid: 4752
+hostname: localhost
+

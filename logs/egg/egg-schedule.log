@@ -1,0 +1,12 @@
+2018-06-12 09:55:11,496 INFO 2493 [Timer] /Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-06-13 00:00:00.000
+2018-06-12 09:55:11,497 INFO 2493 [Timer] /Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-06-13 00:00:01.000
+2018-06-12 14:57:10,553 INFO 4038 [Timer] /Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-06-13 00:00:00.000
+2018-06-12 14:57:10,554 INFO 4038 [Timer] /Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-06-13 00:00:01.000
+2018-06-12 14:57:31,635 INFO 4066 [Timer] /Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-06-13 00:00:00.000
+2018-06-12 14:57:31,636 INFO 4066 [Timer] /Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-06-13 00:00:01.000
+2018-06-12 15:35:39,256 INFO 4399 [Timer] /Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-06-13 00:00:00.000
+2018-06-12 15:35:39,257 INFO 4399 [Timer] /Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-06-13 00:00:01.000
+2018-06-12 17:05:10,180 INFO 4714 [Timer] /Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-06-13 00:00:00.000
+2018-06-12 17:05:10,181 INFO 4714 [Timer] /Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-06-13 00:00:01.000
+2018-06-12 17:20:07,665 INFO 4750 [Timer] /Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-06-13 00:00:00.000
+2018-06-12 17:20:07,666 INFO 4750 [Timer] /Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-06-13 00:00:01.000
