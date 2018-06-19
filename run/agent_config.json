@@ -83,8 +83,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/apple/Documents/practice/egg-example/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/apple/Documents/practice/egg-example/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/apple/Documents/practice/egg-project/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/apple/Documents/practice/egg-project/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "multipart": {
@@ -108,7 +108,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/apple/Documents/practice/egg-example/logs/egg/egg-schedule.log"
+        "file": "/Users/apple/Documents/practice/egg-project/logs/egg/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -122,14 +122,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/apple/Documents/practice/egg-example/app/public",
+      "dir": "/Users/apple/Documents/practice/egg-project/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/apple/Documents/practice/egg-example/app/view",
+      "root": "/Users/apple/Documents/practice/egg-project/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "ejs",
@@ -138,7 +138,7 @@
       }
     },
     "ejs": {
-      "root": "/Users/apple/Documents/practice/egg-example/app/view",
+      "root": "/Users/apple/Documents/practice/egg-project/app/view",
       "cache": false,
       "debug": false,
       "compileDebug": true,
@@ -197,9 +197,9 @@
       "author": "duruo",
       "license": "MIT"
     },
-    "baseDir": "/Users/apple/Documents/practice/egg-example",
+    "baseDir": "/Users/apple/Documents/practice/egg-project",
     "HOME": "/Users/apple",
-    "rundir": "/Users/apple/Documents/practice/egg-example/run",
+    "rundir": "/Users/apple/Documents/practice/egg-project/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -229,7 +229,7 @@
       }
     },
     "logger": {
-      "dir": "/Users/apple/Documents/practice/egg-example/logs/egg",
+      "dir": "/Users/apple/Documents/practice/egg-project/logs/egg",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -308,8 +308,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/Documents/practice/egg-example/node_modules/egg-session",
+      "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -321,8 +321,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/Documents/practice/egg-example/node_modules/egg-security",
+      "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-security",
       "version": "2.2.2"
     },
     "jsonp": {
@@ -334,8 +334,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/Documents/practice/egg-example/node_modules/egg-jsonp",
+      "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -347,8 +347,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/Documents/practice/egg-example/node_modules/egg-onerror",
+      "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -358,8 +358,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/Documents/practice/egg-example/node_modules/egg-i18n",
+      "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -369,8 +369,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/Documents/practice/egg-example/node_modules/egg-watcher",
+      "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -380,8 +380,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/Documents/practice/egg-example/node_modules/egg-multipart",
+      "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-multipart",
       "version": "2.0.0"
     },
     "development": {
@@ -395,8 +395,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/Documents/practice/egg-example/node_modules/egg-development",
+      "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-development",
       "version": "2.2.0"
     },
     "schedule": {
@@ -406,8 +406,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/Documents/practice/egg-example/node_modules/egg-schedule",
+      "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-schedule",
       "version": "3.3.0"
     },
     "logrotator": {
@@ -419,8 +419,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/Documents/practice/egg-example/node_modules/egg-logrotator",
+      "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -430,8 +430,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/Documents/practice/egg-example/node_modules/egg-static",
+      "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-static",
       "version": "2.1.1"
     },
     "view": {
@@ -441,8 +441,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/Documents/practice/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/Documents/practice/egg-example/node_modules/egg-view",
+      "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view",
       "version": "2.1.0"
     },
     "ejs": {
@@ -454,8 +454,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/apple/Documents/practice/egg-example/config/plugin.js",
-      "path": "/Users/apple/Documents/practice/egg-example/node_modules/egg-view-ejs",
+      "from": "/Users/apple/Documents/practice/egg-project/config/plugin.js",
+      "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view-ejs",
       "version": "2.0.0"
     }
   }

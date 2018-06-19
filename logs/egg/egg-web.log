@@ -283,3 +283,18 @@
 2018-06-12 17:21:30,384 INFO 4752 [egg:core] dump config after load, 7ms
 2018-06-12 17:21:30,402 INFO 4752 [egg-watcher:app] watcher start success
 2018-06-12 17:21:30,407 INFO 4752 [egg:core] dump config after ready, 4ms
+2018-06-19 10:15:55,763 INFO 906 [egg:logger] init all loggers with options: {"dir":"/Users/apple/Documents/practice/egg-project/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-06-19 10:15:55,815 INFO 906 [egg-schedule]: register schedule /Users/apple/Documents/practice/egg-project/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-19 10:15:55,815 INFO 906 [egg-schedule]: register schedule /Users/apple/Documents/practice/egg-project/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-19 10:15:55,897 INFO 906 [egg-static] starting static serve /public/ -> /Users/apple/Documents/practice/egg-project/app/public
+2018-06-19 10:15:55,900 INFO 906 [egg-security] use csrf middleware
+2018-06-19 10:15:55,901 INFO 906 [egg-security] use methodnoallow middleware
+2018-06-19 10:15:55,901 INFO 906 [egg-security] use noopen middleware
+2018-06-19 10:15:55,902 INFO 906 [egg-security] use nosniff middleware
+2018-06-19 10:15:55,903 INFO 906 [egg-security] use xssProtection middleware
+2018-06-19 10:15:55,904 INFO 906 [egg-security] use xframe middleware
+2018-06-19 10:15:55,905 INFO 906 [egg-security] use dta middleware
+2018-06-19 10:15:55,905 INFO 906 [egg-security] compose 7 middlewares into one security middleware
+2018-06-19 10:15:55,916 INFO 906 [egg:core] dump config after load, 5ms
+2018-06-19 10:15:55,932 INFO 906 [egg-watcher:app] watcher start success
+2018-06-19 10:15:55,937 INFO 906 [egg:core] dump config after ready, 3ms
