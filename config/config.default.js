@@ -20,5 +20,15 @@ module.exports = appInfo => {
     serverUrl: 'https://hacker-news.firebaseio.com/v0',
   };
 
+  config.middleware = [
+    'robot'
+  ];
+  
+  config.robot = {
+    ua: [
+      /Baiduspider/i,
+    ]
+  }
+
   return config;
 };

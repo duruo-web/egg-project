@@ -14,6 +14,9 @@
     "pageSize": "/Users/apple/Documents/practice/egg-project/config/config.default.js",
     "serverUrl": "/Users/apple/Documents/practice/egg-project/config/config.default.js"
   },
+  "robot": {
+    "ua": "/Users/apple/Documents/practice/egg-project/config/config.default.js"
+  },
   "session": {
     "maxAge": "/Users/apple/Documents/practice/egg-project/node_modules/egg-session/config/config.default.js",
     "key": "/Users/apple/Documents/practice/egg-project/node_modules/egg-session/config/config.default.js",
@@ -161,7 +164,8 @@
     "dependencies": {
       "egg": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js",
-      "egg-view-ejs": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js"
+      "egg-view-ejs": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js",
+      "moment": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "autod": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js",
