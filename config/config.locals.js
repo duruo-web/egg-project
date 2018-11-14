@@ -24,7 +24,6 @@ module.exports = appInfo => {
   ]
   exports.robot = {
     ua: [
-      /curl/i,
       /Baiduspider/i,
     ]
   }

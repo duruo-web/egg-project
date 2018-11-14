@@ -4,7 +4,7 @@
   "view": {
     "defaultViewEngine": "/Users/apple/Documents/practice/egg-project/config/config.default.js",
     "mapping": {
-      ".ejs": "/Users/apple/Documents/practice/egg-project/config/config.default.js"
+      ".tpl": "/Users/apple/Documents/practice/egg-project/config/config.default.js"
     },
     "root": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view/config/config.default.js",
     "cache": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view/config/config.local.js",
@@ -85,7 +85,8 @@
   },
   "onerror": {
     "errorPageUrl": "/Users/apple/Documents/practice/egg-project/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/apple/Documents/practice/egg-project/node_modules/egg-onerror/config/config.default.js"
+    "appErrorFilter": "/Users/apple/Documents/practice/egg-project/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/apple/Documents/practice/egg-project/node_modules/egg-onerror/config/config.default.js"
   },
   "i18n": {
     "defaultLocale": "/Users/apple/Documents/practice/egg-project/node_modules/egg-i18n/config/config.default.js",
@@ -101,7 +102,14 @@
       "development": "/Users/apple/Documents/practice/egg-project/node_modules/egg-watcher/config/config.default.js"
     }
   },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/apple/Documents/practice/egg-project/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/apple/Documents/practice/egg-project/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
   "multipart": {
+    "mode": "/Users/apple/Documents/practice/egg-project/node_modules/egg-multipart/config/config.default.js",
     "autoFields": "/Users/apple/Documents/practice/egg-project/node_modules/egg-multipart/config/config.default.js",
     "defaultCharset": "/Users/apple/Documents/practice/egg-project/node_modules/egg-multipart/config/config.default.js",
     "fieldNameSize": "/Users/apple/Documents/practice/egg-project/node_modules/egg-multipart/config/config.default.js",
@@ -110,7 +118,11 @@
     "fileSize": "/Users/apple/Documents/practice/egg-project/node_modules/egg-multipart/config/config.default.js",
     "files": "/Users/apple/Documents/practice/egg-project/node_modules/egg-multipart/config/config.default.js",
     "fileExtensions": "/Users/apple/Documents/practice/egg-project/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/apple/Documents/practice/egg-project/node_modules/egg-multipart/config/config.default.js"
+    "whitelist": "/Users/apple/Documents/practice/egg-project/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/apple/Documents/practice/egg-project/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/apple/Documents/practice/egg-project/node_modules/egg-multipart/config/config.default.js"
+    }
   },
   "development": {
     "watchDirs": "/Users/apple/Documents/practice/egg-project/node_modules/egg-development/config/config.default.js",
@@ -118,12 +130,6 @@
     "fastReady": "/Users/apple/Documents/practice/egg-project/node_modules/egg-development/config/config.default.js",
     "reloadOnDebug": "/Users/apple/Documents/practice/egg-project/node_modules/egg-development/config/config.default.js",
     "overrideDefault": "/Users/apple/Documents/practice/egg-project/node_modules/egg-development/config/config.default.js"
-  },
-  "customLogger": {
-    "scheduleLogger": {
-      "consoleLevel": "/Users/apple/Documents/practice/egg-project/node_modules/egg-schedule/config/config.default.js",
-      "file": "/Users/apple/Documents/practice/egg-project/node_modules/egg-schedule/config/config.default.js"
-    }
   },
   "logrotator": {
     "filesRotateByHour": "/Users/apple/Documents/practice/egg-project/node_modules/egg-logrotator/config/config.default.js",
@@ -142,13 +148,12 @@
     "buffer": "/Users/apple/Documents/practice/egg-project/node_modules/egg-static/config/config.default.js",
     "maxFiles": "/Users/apple/Documents/practice/egg-project/node_modules/egg-static/config/config.default.js"
   },
-  "ejs": {
-    "root": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view-ejs/config/config.default.js",
-    "cache": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view-ejs/config/config.local.js",
-    "debug": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view-ejs/config/config.default.js",
-    "compileDebug": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view-ejs/config/config.default.js",
-    "delimiter": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view-ejs/config/config.default.js",
-    "strict": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view-ejs/config/config.default.js"
+  "nunjucks": {
+    "autoescape": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view-nunjucks/config/config.local.js"
   },
   "env": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js",
   "name": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js",
@@ -164,8 +169,7 @@
     "dependencies": {
       "egg": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js",
-      "egg-view-ejs": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js",
-      "moment": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js"
+      "egg-view-nunjucks": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "autod": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js",
@@ -253,8 +257,8 @@
   },
   "httpclient": {
     "enableDNSCache": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js",
     "dnsCacheMaxLength": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxAge": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js",
     "request": {
       "timeout": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/config.default.js"
     },

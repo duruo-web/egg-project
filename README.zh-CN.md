@@ -1,6 +1,6 @@
-# egg
+# feb-egg
 
-first egg-init
+my first project egg
 
 ## 快速入门
 

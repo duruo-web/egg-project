@@ -7,6 +7,7 @@
       "encrypt": true,
       "overwrite": true,
       "signed": true,
+      "autoCommit": true,
       "encode": "<Function encode>",
       "decode": "<Function decode>",
       "genid": "<Function anonymous>"
@@ -68,7 +69,8 @@
       "ssrf": {
         "ipBlackList": null,
         "checkAddress": null
-      }
+      },
+      "_protocolWhiteListSet": "<Set>"
     },
     "helper": {
       "shtml": {}
@@ -83,7 +85,8 @@
     },
     "onerror": {
       "errorPageUrl": "",
-      "appErrorFilter": null
+      "appErrorFilter": null,
+      "templatePath": "/Users/apple/Documents/practice/egg-project/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -94,13 +97,14 @@
         "/Users/apple/Documents/practice/egg-project/node_modules/egg-onerror/config/locales",
         "/Users/apple/Documents/practice/egg-project/node_modules/egg-i18n/config/locales",
         "/Users/apple/Documents/practice/egg-project/node_modules/egg-watcher/config/locales",
+        "/Users/apple/Documents/practice/egg-project/node_modules/egg-schedule/config/locales",
         "/Users/apple/Documents/practice/egg-project/node_modules/egg-multipart/config/locales",
         "/Users/apple/Documents/practice/egg-project/node_modules/egg-development/config/locales",
-        "/Users/apple/Documents/practice/egg-project/node_modules/egg-schedule/config/locales",
         "/Users/apple/Documents/practice/egg-project/node_modules/egg-logrotator/config/locales",
         "/Users/apple/Documents/practice/egg-project/node_modules/egg-static/config/locales",
         "/Users/apple/Documents/practice/egg-project/node_modules/egg-view/config/locales",
-        "/Users/apple/Documents/practice/egg-project/node_modules/egg-view-ejs/config/locales",
+        "/Users/apple/Documents/practice/egg-project/node_modules/egg-view-nunjucks/config/locales",
+        "/Users/apple/Documents/practice/egg-project/lib/plugin/egg-ua/config/locales",
         "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/locales",
         "/Users/apple/Documents/practice/egg-project/config/locales"
       ],
@@ -116,7 +120,14 @@
         "development": "/Users/apple/Documents/practice/egg-project/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "/Users/apple/Documents/practice/egg-project/logs/feb-egg/egg-schedule.log"
+      }
+    },
     "multipart": {
+      "mode": "stream",
       "autoFields": false,
       "defaultCharset": "utf8",
       "fieldNameSize": 100,
@@ -125,7 +136,11 @@
       "fileSize": 10485760,
       "files": 10,
       "fileExtensions": [],
-      "whitelist": null
+      "whitelist": null,
+      "tmpdir": "/var/folders/z7/d0b5wlqn17scqybpd8jh4c640000gn/T/egg-multipart-tmp/feb-egg",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *"
+      }
     },
     "development": {
       "watchDirs": [],
@@ -133,12 +148,6 @@
       "fastReady": false,
       "reloadOnDebug": true,
       "overrideDefault": false
-    },
-    "customLogger": {
-      "scheduleLogger": {
-        "consoleLevel": "NONE",
-        "file": "/Users/apple/Documents/practice/egg-project/logs/egg/egg-schedule.log"
-      }
     },
     "logrotator": {
       "filesRotateByHour": null,
@@ -164,36 +173,34 @@
       ],
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "ejs",
+      "defaultViewEngine": "nunjucks",
       "mapping": {
-        ".ejs": "ejs"
+        ".tpl": "nunjucks"
       }
     },
-    "ejs": {
-      "root": "/Users/apple/Documents/practice/egg-project/app/view",
-      "cache": false,
-      "debug": false,
-      "compileDebug": true,
-      "delimiter": null,
-      "strict": false
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
     },
     "env": "local",
-    "name": "egg",
-    "keys": "<String len: 22>",
+    "name": "feb-egg",
+    "keys": "<String len: 26>",
     "proxy": false,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
     "hostHeaders": "",
     "pkg": {
-      "name": "egg",
+      "name": "feb-egg",
       "version": "1.0.0",
-      "description": "first egg-init",
+      "description": "my first project egg",
       "private": true,
       "dependencies": {
         "egg": "^2.2.1",
         "egg-scripts": "^2.5.0",
-        "egg-view-ejs": "^2.0.0",
-        "moment": "^2.22.2"
+        "egg-view-nunjucks": "^2.2.0"
       },
       "devDependencies": {
         "autod": "^3.0.1",
@@ -209,8 +216,8 @@
         "node": ">=8.9.0"
       },
       "scripts": {
-        "start": "egg-scripts start --daemon --title=egg-server-egg",
-        "stop": "egg-scripts stop --title=egg-server-egg",
+        "start": "egg-scripts start --daemon --title=egg-server-feb-egg",
+        "stop": "egg-scripts stop --title=egg-server-feb-egg",
         "dev": "egg-bin dev",
         "debug": "egg-bin debug",
         "test": "npm run lint -- --fix && npm run test-local",
@@ -227,7 +234,7 @@
         "type": "git",
         "url": ""
       },
-      "author": "duruo",
+      "author": "feb",
       "license": "MIT"
     },
     "baseDir": "/Users/apple/Documents/practice/egg-project",
@@ -263,7 +270,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/apple/Documents/practice/egg-project/logs/egg",
+      "dir": "/Users/apple/Documents/practice/egg-project/logs/feb-egg",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -271,7 +278,7 @@
       "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
-      "appLogName": "egg-web.log",
+      "appLogName": "feb-egg-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
@@ -283,8 +290,8 @@
     },
     "httpclient": {
       "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
       "dnsCacheMaxLength": 1000,
-      "dnsCacheMaxAge": 10000,
       "request": {
         "timeout": 5000
       },
@@ -314,7 +321,8 @@
       "overrideMethod",
       "session",
       "securities",
-      "i18n"
+      "i18n",
+      "eggLoaderTrace"
     ],
     "workerStartTimeout": 600000,
     "cluster": {
@@ -338,6 +346,7 @@
     },
     "robot": {
       "ua": [
+        {},
         {}
       ]
     },
@@ -380,7 +389,7 @@
       "env": [],
       "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
       "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-security",
-      "version": "2.2.2"
+      "version": "2.4.0"
     },
     "jsonp": {
       "enable": true,
@@ -406,7 +415,7 @@
       "env": [],
       "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
       "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-onerror",
-      "version": "2.0.0"
+      "version": "2.1.0"
     },
     "i18n": {
       "enable": true,
@@ -428,18 +437,31 @@
       "env": [],
       "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
       "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-watcher",
-      "version": "3.0.0"
+      "version": "3.1.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
+      "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-schedule",
+      "version": "3.4.0"
     },
     "multipart": {
       "enable": true,
       "package": "egg-multipart",
       "name": "multipart",
       "dependencies": [],
-      "optionalDependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
       "env": [],
       "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
       "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-multipart",
-      "version": "2.0.0"
+      "version": "2.2.1"
     },
     "development": {
       "enable": true,
@@ -454,18 +476,7 @@
       ],
       "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
       "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-development",
-      "version": "2.2.0"
-    },
-    "schedule": {
-      "enable": true,
-      "package": "egg-schedule",
-      "name": "schedule",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
-      "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-schedule",
-      "version": "3.3.0"
+      "version": "2.4.1"
     },
     "logrotator": {
       "enable": true,
@@ -478,7 +489,7 @@
       "env": [],
       "from": "/Users/apple/Documents/practice/egg-project/node_modules/egg/config/plugin.js",
       "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-logrotator",
-      "version": "3.0.3"
+      "version": "3.0.4"
     },
     "static": {
       "enable": true,
@@ -502,18 +513,28 @@
       "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view",
       "version": "2.1.0"
     },
-    "ejs": {
+    "nunjucks": {
       "enable": true,
-      "package": "egg-view-ejs",
-      "name": "ejs",
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
       "dependencies": [
+        "security",
         "view"
       ],
       "optionalDependencies": [],
       "env": [],
       "from": "/Users/apple/Documents/practice/egg-project/config/plugin.js",
-      "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view-ejs",
-      "version": "2.0.0"
+      "path": "/Users/apple/Documents/practice/egg-project/node_modules/egg-view-nunjucks",
+      "version": "2.2.0"
+    },
+    "ua": {
+      "enable": true,
+      "path": "/Users/apple/Documents/practice/egg-project/lib/plugin/egg-ua",
+      "name": "ua",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/apple/Documents/practice/egg-project/config/plugin.js"
     }
   }
 }

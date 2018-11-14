@@ -1,13 +1,12 @@
 {
-  "name": "egg",
+  "name": "feb-egg",
   "version": "1.0.0",
-  "description": "first egg-init",
+  "description": "my first project egg",
   "private": true,
   "dependencies": {
     "egg": "^2.2.1",
     "egg-scripts": "^2.5.0",
-    "egg-view-ejs": "^2.0.0",
-    "moment": "^2.22.2"
+    "egg-view-nunjucks": "^2.2.0"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -23,8 +22,8 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-egg",
-    "stop": "egg-scripts stop --title=egg-server-egg",
+    "start": "egg-scripts start --daemon --title=egg-server-feb-egg",
+    "stop": "egg-scripts stop --title=egg-server-feb-egg",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
@@ -41,6 +40,6 @@
     "type": "git",
     "url": ""
   },
-  "author": "duruo",
+  "author": "feb",
   "license": "MIT"
 }
