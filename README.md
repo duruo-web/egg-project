@@ -1,6 +1,6 @@
-# egg
+# feb-egg
 
-first egg-init
+my first project egg
 
 ## QuickStart
 
@@ -31,3 +31,5 @@ $ npm stop
 
 
 [egg]: https://eggjs.org
+
+# plugin.js + config.default.js 配置开启插件
